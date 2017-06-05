@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Honor8" verbose="1" thread-count="1">
+    <parameter name="UDID_" value="P6LDU16B12000559"/>
+    <parameter name="PORT_" value="4733"/>
+    <parameter name="APPRESET_" value="true"/>
+    <test name="SwipeTest" verbose="1" thread-count="2">
+        <classes>
+            <class name="scenarios.SwipeTest"/>
+        </classes>
+    </test>
+    <test name="RegisterTest" verbose="1" thread-count="2">
+        <classes>
+            <class name="scenarios.RegisterTest"/>
+        </classes>
+    </test>
+    <test name="LoginTest" verbose="1" thread-count="2">
+        <classes>
+            <class name="scenarios.LoginTest"/>
+        </classes>
+    </test>
+    <test name="MenuTest" verbose="1" thread-count="2">
+        <classes>
+            <class name="scenarios.MenuTest"/>
+        </classes>
+    </test>
+    <test name="PromosTest" verbose="1" thread-count="2">
+        <classes>
+            <class name="scenarios.PromosTest"/>
+        </classes>
+    </test>
+    <test name="CategoryTest" verbose="1" thread-count="2">
+        <classes>
+            <class name="scenarios.CategoryTest"/>
+        </classes>
+    </test>
+</suite>

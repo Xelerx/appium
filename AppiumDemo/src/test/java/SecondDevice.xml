@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Yotaphone2" verbose="1" thread-count="2">
+    <parameter name="UDID_" value="7b94b283"/>
+    <parameter name="PORT_" value="4753"/>
+    <parameter name="APPRESET_" value="true"/>
+    <test name="SwipeTest" verbose="1" thread-count="2">
+        <classes>
+            <class name="scenarios.SwipeTest"/>
+        </classes>
+    </test>
+    <test name="LoginTest" verbose="1" thread-count="2">
+        <classes>
+            <class name="scenarios.LoginTest"/>
+        </classes>
+    </test>
+    <test name="MenuTest" verbose="1" thread-count="2">
+        <classes>
+            <class name="scenarios.MenuTest"/>
+        </classes>
+    </test>
+    <test name="PromosTest" verbose="1" thread-count="2">
+        <classes>
+            <class name="scenarios.PromosTest"/>
+        </classes>
+    </test>
+    <test name="CategoryTest" verbose="1" thread-count="2">
+        <classes>
+            <class name="scenarios.CategoryTest"/>
+        </classes>
+    </test>
+</suite>

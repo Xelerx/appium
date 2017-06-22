@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Honor8" verbose="1" thread-count="1">
+    <parameter name="UDID_" value="P6LDU16B12000559"/>
+    <parameter name="PORT_" value="4733"/>
+    <parameter name="APPRESET_" value="true"/>
+    <test name="TestTest" verbose="1" thread-count="2">
+        <classes>
+            <class name="TestTest"/>
+        </classes>
+    </test>
+</suite>
